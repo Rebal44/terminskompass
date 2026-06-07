@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rebal44.github.io/terminskompass/sitemap.xml

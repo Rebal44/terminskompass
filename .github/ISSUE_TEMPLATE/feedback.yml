@@ -1,0 +1,46 @@
+name: Feedback på demon
+description: Berätta vad som fungerade och vad som kan bli tydligare.
+title: "[Feedback] "
+labels:
+  - feedback
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tack för att du testade Terminskompass. Skriv inte ditt fullständiga namn, skolans namn eller annan privat information.
+  - type: dropdown
+    id: role
+    attributes:
+      label: Vilken typ av användare är du?
+      options:
+        - Gymnasieelev
+        - Universitets- eller högskolestudent
+        - Lärare eller studiecoach
+        - Förälder
+        - Annat
+    validations:
+      required: true
+  - type: textarea
+    id: useful
+    attributes:
+      label: Vad kändes mest användbart?
+      placeholder: Till exempel provplanen, fokuspasset eller översikten.
+    validations:
+      required: true
+  - type: textarea
+    id: unclear
+    attributes:
+      label: Vad var oklart eller saknades?
+      placeholder: Beskriv gärna ett konkret ögonblick i demon.
+    validations:
+      required: true
+  - type: dropdown
+    id: purchase
+    attributes:
+      label: Skulle du överväga ett engångsköp på 59 kr?
+      options:
+        - Ja
+        - Kanske
+        - Nej
+    validations:
+      required: true

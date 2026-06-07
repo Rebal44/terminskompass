@@ -696,6 +696,26 @@ details p {
   line-height: 1.7;
 }
 
+.feedback-callout {
+  margin-top: 30px;
+  padding: 25px;
+  border: 1px solid var(--line);
+  background: rgba(255, 253, 248, .52);
+}
+
+.feedback-callout h3 {
+  margin: 10px 0;
+  font-size: 25px;
+  letter-spacing: -.04em;
+}
+
+.feedback-callout > p:not(.eyebrow) {
+  margin: 0 0 18px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.65;
+}
+
 footer {
   display: grid;
   grid-template-columns: 1fr 1fr auto;
