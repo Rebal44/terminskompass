@@ -3,6 +3,8 @@
 Public sales page and limited interactive demo for Terminskompass, a Swedish
 offline study planner.
 
+Live site: https://rebal44.github.io/terminskompass/
+
 The paid application source and buyer download are not included in this
 repository.
 
