@@ -1,7 +1,7 @@
 (() => {
   "use strict";
 
-  const BUY_URL = "";
+  const BUY_URL = "https://buy.stripe.com/8x214ocaA4dJaLyg494c800";
   const buyButton = document.querySelector("#buy-button");
   const dialog = document.querySelector("#checkout-pending");
 
